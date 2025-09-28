@@ -1,0 +1,21 @@
+{
+  "name": "project-list",
+  "title": "Project List",
+  "description": "",
+  "$schema": "https://json.schemastore.org/youtrack-app.json",
+  "vendor": {
+    "name": "",
+    "url": "https://timobaumberger.com"
+  },
+  "icon": "icon.svg",
+  "widgets": [
+    {
+      "key": "main-widget",
+      "name": "Project list",
+      "indexPath": "main-widget/index.html",
+      "extensionPoint": "MAIN_MENU_ITEM",
+      "iconPath": "main-widget/widget-icon.svg",
+      "description": ""
+    }
+  ]
+}
