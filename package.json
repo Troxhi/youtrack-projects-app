@@ -9,8 +9,7 @@
     "lint": "eslint --report-unused-disable-directives --max-warnings 0",
     "test": "echo 'no tests'",
     "pack": "rm -rf project-list.zip && cd dist/ && bestzip ../project-list.zip *",
-    "upload": "youtrack-app upload dist",
-    "publish": "npm run build && npm run pack && npm run upload -- --host \"chunkyhttp.youtrack.cloud\" --token \"perm-YWRtaW4=.NDQtMA==.9tbEZQmWXSBOT8B4dRS9J1mKS1QbC0\""
+    "upload": "youtrack-app upload dist"
   },
   "dependencies": {
     "@jetbrains/ring-ui-built": "^7.0.8",
